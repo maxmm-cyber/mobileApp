@@ -8,7 +8,7 @@ from kivy.uix.boxlayout import BoxLayout
 
 class MyApp(App):
     def build(self):
-        text = Label(text = "Вітаю вас у мобільній розробці!")
+        text = Label(text = "Привіт!!!")
         
         btn = Button(text = "не чіпай!")
         col = BoxLayout(orientation="vertical")
